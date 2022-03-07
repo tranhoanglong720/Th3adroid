@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lab3c1">
+    tools:context=".Lab3c">
 
     <ImageView
         android:id="@+id/imageView10"
@@ -37,7 +37,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vmart" />
+        app:srcCompat="@drawable/vs_red_aa" />
 
     <TextView
 

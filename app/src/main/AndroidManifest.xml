@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication" >
+    package="com.example.myapplication">
 
     <application
         android:allowBackup="true"
@@ -8,11 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication" >
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".Lab3c4"
+            android:exported="true" />
+        <activity
+            android:name=".Lab3c3"
+            android:exported="true" />
+        <activity
+            android:name=".Lab3c2"
+            android:exported="true" />
         <activity
             android:name=".Lab3c1"
             android:exported="true" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
